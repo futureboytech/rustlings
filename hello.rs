@@ -1,3 +1,7 @@
+fn print (input_string: String) {
+    println!("{}", input_string);
+}
 fn main() {
-    println!("Hello, World!");
+    let test_string = String::from("Hello,world!");
+    print(test_string);
 }
